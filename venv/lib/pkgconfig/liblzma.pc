@@ -1,0 +1,17 @@
+# SPDX-License-Identifier: 0BSD
+# Author: Lasse Collin
+
+prefix=/Users/rithik/Ml project/venv
+exec_prefix=/Users/rithik/Ml project/venv
+libdir=/Users/rithik/Ml project/venv/lib
+includedir=/Users/rithik/Ml project/venv/include
+
+Name: liblzma
+Description: General purpose data compression library
+License: 0BSD
+URL: https://tukaani.org/xz/
+Version: 5.8.3
+Cflags: -I${includedir}
+Cflags.private: -DLZMA_API_STATIC
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lpthread 
