@@ -4,8 +4,11 @@ Version: 0.0.1
 Author: akansha
 Author-email: akanshabhardwaj895@gmail.com
 Requires-Dist: pandas
-Requires-Dist: seaborn
 Requires-Dist: numpy
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+Requires-Dist: scikit-learn
+Requires-Dist: dill
 Dynamic: author
 Dynamic: author-email
 Dynamic: requires-dist
